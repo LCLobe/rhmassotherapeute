@@ -1,0 +1,90 @@
+{
+  "services": [
+    {
+      "id": "relaxing-massage-60",
+      "price": 150,
+      "durationMinutes": 60,
+      "durationLabel": {
+        "en": "1 hour",
+        "fr": "1 heure",
+        "es": "1 hora"
+      },
+      "name": {
+        "en": "Relaxing full-body massage",
+        "fr": "Massage relaxant g\u00e9n\u00e9ral",
+        "es": "Masaje general relajante"
+      },
+      "description": {
+        "en": "A complete relaxation session designed to release tension and restore a calmer rhythm.",
+        "fr": "Une s\u00e9ance compl\u00e8te de d\u00e9tente pens\u00e9e pour rel\u00e2cher les tensions et retrouver un rythme plus calme.",
+        "es": "Una sesi\u00f3n completa de relajaci\u00f3n pensada para liberar tensi\u00f3n y recuperar un ritmo m\u00e1s tranquilo."
+      }
+    },
+    {
+      "id": "relaxing-massage-30",
+      "price": 75,
+      "durationMinutes": 30,
+      "durationLabel": {
+        "en": "30 minutes",
+        "fr": "30 minutes",
+        "es": "30 minutos"
+      },
+      "name": {
+        "en": "Relaxing full-body massage",
+        "fr": "Massage relaxant g\u00e9n\u00e9ral",
+        "es": "Masaje general relajante"
+      },
+      "description": {
+        "en": "A shorter calming treatment for a focused pause, ideal when time is limited.",
+        "fr": "Un soin plus court et apaisant pour une pause cibl\u00e9e, id\u00e9al lorsque le temps est limit\u00e9.",
+        "es": "Un tratamiento m\u00e1s breve y calmante para una pausa enfocada, ideal cuando el tiempo es limitado."
+      }
+    },
+    {
+      "id": "sports-massage-30",
+      "price": 80,
+      "durationMinutes": 30,
+      "durationLabel": {
+        "en": "30 minutes",
+        "fr": "30 minutes",
+        "es": "30 minutos"
+      },
+      "name": {
+        "en": "Sports massage",
+        "fr": "Massage sportif",
+        "es": "Masaje deportivo"
+      },
+      "description": {
+        "en": "Targeted work for active bodies, supporting recovery, mobility, and muscular comfort.",
+        "fr": "Un travail cibl\u00e9 pour les corps actifs, en soutien \u00e0 la r\u00e9cup\u00e9ration, la mobilit\u00e9 et le confort musculaire.",
+        "es": "Trabajo espec\u00edfico para cuerpos activos, enfocado en recuperaci\u00f3n, movilidad y confort muscular."
+      }
+    }
+  ],
+  "extras": [
+    {
+      "id": "home-travel",
+      "name": {
+        "en": "Travel to the client's home",
+        "fr": "D\u00e9placement au domicile du client",
+        "es": "Desplazamiento a casa del cliente"
+      }
+    },
+    {
+      "id": "aromatic-essences",
+      "name": {
+        "en": "Use of aromatic essences",
+        "fr": "Utilisation d'essences aromatiques",
+        "es": "Uso de esencias arom\u00e1ticas"
+      }
+    },
+    {
+      "id": "other",
+      "name": {
+        "en": "Other request",
+        "fr": "Autre demande",
+        "es": "Otra petici\u00f3n"
+      }
+    }
+  ]
+}

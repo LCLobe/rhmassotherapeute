@@ -1,0 +1,185 @@
+{
+  "en": {
+    "nav": {
+      "services": "Services",
+      "about": "About us",
+      "contact": "Contact"
+    },
+    "hero": {
+      "eyebrow": "RH.MASSOTHERAPEUTE - YVERDON-LES-BAINS",
+      "title": "Therapeutic massage with a calm, personal presence.",
+      "copy": "Ruth Hernica offers relaxing and sports massage sessions for people who want to release tension, recover better, and feel cared for without a clinical atmosphere.",
+      "primaryCta": "Request an appointment",
+      "secondaryCta": "View services",
+      "highlights": [
+        { "label": "Area", "value": "Yverdon-les-Bains and surroundings" },
+        { "label": "Contact", "value": "Instagram + request form" },
+        { "label": "Approach", "value": "Personal, calm, therapeutic" }
+      ]
+    },
+    "services": {
+      "eyebrow": "Initial services",
+      "title": "Treatments designed for recovery and deep rest.",
+      "copy": "The first catalog stays focused and easy to understand. Each appointment request can include optional extras, then Ruth confirms the details personally."
+    },
+    "about": {
+      "eyebrow": "About Ruth",
+      "title": "A practitioner-led service, not a clinic catalog.",
+      "copy": "Ruth Hernica is the person behind RH.Massoth\u00e9rapeute. The website is designed to feel close, elegant, and practical: enough information to choose a treatment, and a simple way to start the conversation.",
+      "points": [
+        "Therapeutic care with a gentle visual identity.",
+        "No client imagery used for privacy and intimacy.",
+        "Future-ready for booking, payments, and feedback."
+      ]
+    },
+    "visit": {
+      "eyebrow": "Visit and appointments",
+      "title": "Located around Yverdon-les-Bains.",
+      "copy": "For the first version, appointments are requested through the form and confirmed manually. Full calendar availability can be connected later.",
+      "cta": "Ask for a time"
+    },
+    "extras": {
+      "eyebrow": "Extras",
+      "title": "Optional details for each session"
+    },
+    "contact": {
+      "eyebrow": "Appointment request",
+      "title": "Tell Ruth what you need.",
+      "close": "Close contact form",
+      "submit": "Send request",
+      "sending": "Sending...",
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "service": "Preferred service",
+        "servicePlaceholder": "Choose a service",
+        "preferredDate": "Preferred date or time",
+        "preferredDatePlaceholder": "For example: next Thursday afternoon",
+        "extras": "Optional extras",
+        "message": "Message"
+      }
+    }
+  },
+  "fr": {
+    "nav": {
+      "services": "Services",
+      "about": "\u00c0 propos",
+      "contact": "Contact"
+    },
+    "hero": {
+      "eyebrow": "RH.MASSOTH\u00c9RAPEUTE - YVERDON-LES-BAINS",
+      "title": "Massage th\u00e9rapeutique dans une pr\u00e9sence calme et personnelle.",
+      "copy": "Ruth Hernica propose des massages relaxants et sportifs pour aider \u00e0 rel\u00e2cher les tensions, mieux r\u00e9cup\u00e9rer et se sentir accompagn\u00e9 avec attention, sans atmosph\u00e8re clinique.",
+      "primaryCta": "Demander un rendez-vous",
+      "secondaryCta": "Voir les services",
+      "highlights": [
+        { "label": "Zone", "value": "Yverdon-les-Bains et alentours" },
+        { "label": "Contact", "value": "Instagram + formulaire" },
+        { "label": "Approche", "value": "Personnelle, calme, th\u00e9rapeutique" }
+      ]
+    },
+    "services": {
+      "eyebrow": "Premiers services",
+      "title": "Des soins pens\u00e9s pour la r\u00e9cup\u00e9ration et le repos profond.",
+      "copy": "Le premier catalogue reste simple et lisible. Chaque demande peut inclure des options, puis Ruth confirme personnellement les d\u00e9tails."
+    },
+    "about": {
+      "eyebrow": "\u00c0 propos de Ruth",
+      "title": "Un service port\u00e9 par une praticienne, pas un catalogue de clinique.",
+      "copy": "Ruth Hernica est la personne derri\u00e8re RH.Massoth\u00e9rapeute. Le site est con\u00e7u pour \u00eatre proche, \u00e9l\u00e9gant et pratique : assez d'information pour choisir un soin, et une mani\u00e8re simple d'ouvrir la conversation.",
+      "points": [
+        "Un accompagnement th\u00e9rapeutique avec une identit\u00e9 visuelle douce.",
+        "Aucune image de client afin de respecter la vie priv\u00e9e et l'intimit\u00e9.",
+        "Pr\u00eat pour les futures r\u00e9servations, paiements et retours clients."
+      ]
+    },
+    "visit": {
+      "eyebrow": "Lieu et rendez-vous",
+      "title": "Autour d'Yverdon-les-Bains.",
+      "copy": "Pour la premi\u00e8re version, les rendez-vous sont demand\u00e9s via le formulaire puis confirm\u00e9s manuellement. La disponibilit\u00e9 du calendrier pourra \u00eatre connect\u00e9e plus tard.",
+      "cta": "Demander un cr\u00e9neau"
+    },
+    "extras": {
+      "eyebrow": "Options",
+      "title": "D\u00e9tails optionnels pour chaque s\u00e9ance"
+    },
+    "contact": {
+      "eyebrow": "Demande de rendez-vous",
+      "title": "Dites \u00e0 Ruth ce dont vous avez besoin.",
+      "close": "Fermer le formulaire de contact",
+      "submit": "Envoyer la demande",
+      "sending": "Envoi...",
+      "fields": {
+        "name": "Nom",
+        "email": "Email",
+        "service": "Service souhait\u00e9",
+        "servicePlaceholder": "Choisir un service",
+        "preferredDate": "Date ou horaire souhait\u00e9",
+        "preferredDatePlaceholder": "Par exemple : jeudi prochain apr\u00e8s-midi",
+        "extras": "Options",
+        "message": "Message"
+      }
+    }
+  },
+  "es": {
+    "nav": {
+      "services": "Servicios",
+      "about": "Sobre Ruth",
+      "contact": "Contacto"
+    },
+    "hero": {
+      "eyebrow": "RH.MASSOTH\u00c9RAPEUTE - YVERDON-LES-BAINS",
+      "title": "Masaje terap\u00e9utico con una presencia calma y personal.",
+      "copy": "Ruth Hernica ofrece masajes relajantes y deportivos para personas que quieren liberar tensi\u00f3n, recuperarse mejor y sentirse cuidadas sin un ambiente cl\u00ednico.",
+      "primaryCta": "Solicitar cita",
+      "secondaryCta": "Ver servicios",
+      "highlights": [
+        { "label": "Zona", "value": "Yverdon-les-Bains y alrededores" },
+        { "label": "Contacto", "value": "Instagram + formulario" },
+        { "label": "Enfoque", "value": "Personal, calmado, terap\u00e9utico" }
+      ]
+    },
+    "services": {
+      "eyebrow": "Servicios iniciales",
+      "title": "Tratamientos pensados para recuperaci\u00f3n y descanso profundo.",
+      "copy": "El primer cat\u00e1logo se mantiene claro y f\u00e1cil de entender. Cada solicitud puede incluir extras opcionales y despu\u00e9s Ruth confirma personalmente los detalles."
+    },
+    "about": {
+      "eyebrow": "Sobre Ruth",
+      "title": "Un servicio llevado por una profesional, no un cat\u00e1logo de cl\u00ednica.",
+      "copy": "Ruth Hernica es la persona detr\u00e1s de RH.Massoth\u00e9rapeute. La web est\u00e1 pensada para sentirse cercana, elegante y pr\u00e1ctica: suficiente informaci\u00f3n para elegir un tratamiento y una forma sencilla de iniciar la conversaci\u00f3n.",
+      "points": [
+        "Cuidado terap\u00e9utico con una identidad visual suave.",
+        "Sin im\u00e1genes de clientes para respetar privacidad e intimidad.",
+        "Preparada para futuras reservas, pagos y comentarios."
+      ]
+    },
+    "visit": {
+      "eyebrow": "Ubicaci\u00f3n y citas",
+      "title": "En la zona de Yverdon-les-Bains.",
+      "copy": "En la primera versi\u00f3n, las citas se solicitan mediante el formulario y se confirman manualmente. M\u00e1s adelante se podr\u00e1 conectar la disponibilidad del calendario.",
+      "cta": "Pedir una hora"
+    },
+    "extras": {
+      "eyebrow": "Extras",
+      "title": "Detalles opcionales para cada sesi\u00f3n"
+    },
+    "contact": {
+      "eyebrow": "Solicitud de cita",
+      "title": "Cu\u00e9ntale a Ruth qu\u00e9 necesitas.",
+      "close": "Cerrar formulario de contacto",
+      "submit": "Enviar solicitud",
+      "sending": "Enviando...",
+      "fields": {
+        "name": "Nombre",
+        "email": "Email",
+        "service": "Servicio preferido",
+        "servicePlaceholder": "Elige un servicio",
+        "preferredDate": "Fecha u hora preferida",
+        "preferredDatePlaceholder": "Por ejemplo: el pr\u00f3ximo jueves por la tarde",
+        "extras": "Extras opcionales",
+        "message": "Mensaje"
+      }
+    }
+  }
+}

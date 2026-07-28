@@ -53,10 +53,12 @@
         "email": "Email",
         "service": "Preferred service",
         "servicePlaceholder": "Choose a service",
+        "otherService": "Other",
         "preferredDate": "Preferred date or time",
         "preferredDatePlaceholder": "For example: next Thursday afternoon",
         "extras": "Optional extras",
-        "message": "Message"
+        "message": "Message",
+        "messagePlaceholder": "If you have a question or a specific therapeutic need, tell me here, even if the treatment you are looking for is not listed on the website."
       }
     }
   },
@@ -114,10 +116,12 @@
         "email": "Email",
         "service": "Service souhait\u00e9",
         "servicePlaceholder": "Choisir un service",
+        "otherService": "Autre",
         "preferredDate": "Date ou horaire souhait\u00e9",
         "preferredDatePlaceholder": "Par exemple : jeudi prochain apr\u00e8s-midi",
         "extras": "Options",
-        "message": "Message"
+        "message": "Message",
+        "messagePlaceholder": "Si vous avez une question ou un besoin th\u00e9rapeutique particulier, vous pouvez me l'indiquer ici, m\u00eame si le soin recherch\u00e9 n'appara\u00eet pas sur le site."
       }
     }
   },
@@ -175,10 +179,12 @@
         "email": "Email",
         "service": "Servicio preferido",
         "servicePlaceholder": "Elige un servicio",
+        "otherService": "Otro",
         "preferredDate": "Fecha u hora preferida",
         "preferredDatePlaceholder": "Por ejemplo: el pr\u00f3ximo jueves por la tarde",
         "extras": "Extras opcionales",
-        "message": "Mensaje"
+        "message": "Mensaje",
+        "messagePlaceholder": "Si tienes alguna pregunta o una necesidad terap\u00e9utica concreta, cu\u00e9ntamela aqu\u00ed, aunque el tratamiento que buscas no aparezca en la web."
       }
     }
   }

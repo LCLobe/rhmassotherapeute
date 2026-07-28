@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RH.Massoth&eacute;rapeute | Site en construction</title>
+    <meta
+      name="description"
+      content="Le site de RH.Massoth&eacute;rapeute est en construction. Retrouvez Ruth Hernica sur Instagram."
+    />
+    <link rel="icon" href="public/brand/favicon-leaf-preview.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Brawler&family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --background: #f9ece3;
+        --surface: #fff8f2;
+        --foreground: #443a28;
+        --gold: #7f5614;
+        --gold-soft: #947e4c;
+        --border: #d8c8b5;
+        --black: #0a0a0a;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        min-height: 100vh;
+        margin: 0;
+        color: var(--foreground);
+        font-family: "Brawler", Georgia, serif;
+        background:
+          radial-gradient(circle at 18% 18%, rgba(183, 176, 162, 0.22), transparent 32%),
+          linear-gradient(180deg, var(--background) 0%, var(--surface) 55%, var(--background) 100%);
+      }
+
+      main {
+        display: grid;
+        min-height: 100vh;
+        place-items: center;
+        padding: 32px 20px;
+      }
+
+      .parking {
+        width: min(100%, 920px);
+        display: grid;
+        gap: 34px;
+        text-align: center;
+      }
+
+      .brand-mark {
+        width: 116px;
+        height: 116px;
+        margin: 0 auto;
+        display: grid;
+        place-items: center;
+        overflow: hidden;
+        border: 1px solid rgba(148, 126, 76, 0.44);
+        border-radius: 999px;
+        background: var(--black);
+        box-shadow: 0 22px 52px rgba(10, 10, 10, 0.2);
+      }
+
+      .brand-mark img {
+        display: block;
+        width: 120%;
+        height: 120%;
+        object-fit: cover;
+        object-position: 50% 50%;
+      }
+
+      .eyebrow {
+        margin: 0;
+        color: var(--gold);
+        font-size: 0.82rem;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 16px auto 0;
+        max-width: 780px;
+        color: var(--foreground);
+        font-family: "Cormorant Garamond", Georgia, serif;
+        font-size: clamp(3.4rem, 8vw, 7rem);
+        font-weight: 500;
+        line-height: 0.92;
+        letter-spacing: 0;
+      }
+
+      .copy {
+        max-width: 610px;
+        margin: 24px auto 0;
+        color: rgba(68, 58, 40, 0.82);
+        font-size: clamp(1rem, 2vw, 1.15rem);
+        line-height: 1.8;
+      }
+
+      .location {
+        display: inline-flex;
+        min-height: 42px;
+        align-items: center;
+        justify-content: center;
+        margin: 6px auto 0;
+        padding: 10px 18px;
+        border: 1px solid rgba(148, 126, 76, 0.42);
+        border-radius: 999px;
+        color: var(--gold);
+        font-size: 0.78rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      .actions {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+        margin-top: 14px;
+      }
+
+      .instagram {
+        display: inline-flex;
+        min-height: 52px;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 0 24px;
+        border: 1px solid var(--black);
+        border-radius: 999px;
+        background: var(--black);
+        color: var(--background);
+        font-size: 0.85rem;
+        letter-spacing: 0.16em;
+        text-decoration: none;
+        text-transform: uppercase;
+        box-shadow: 0 16px 36px rgba(10, 10, 10, 0.22);
+        transition:
+          transform 180ms ease,
+          background 180ms ease,
+          border-color 180ms ease;
+      }
+
+      .instagram:hover,
+      .instagram:focus-visible {
+        border-color: var(--foreground);
+        background: var(--foreground);
+        transform: translateY(-2px);
+      }
+
+      .instagram:focus-visible {
+        outline: 3px solid rgba(127, 86, 20, 0.32);
+        outline-offset: 4px;
+      }
+
+      .instagram svg {
+        width: 18px;
+        height: 18px;
+        flex: 0 0 auto;
+      }
+
+      footer {
+        color: rgba(68, 58, 40, 0.58);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 560px) {
+        main {
+          padding: 24px 16px;
+        }
+
+        .parking {
+          gap: 28px;
+        }
+
+        .brand-mark {
+          width: 96px;
+          height: 96px;
+        }
+
+        .brand-mark img {
+          width: 120%;
+          height: 120%;
+        }
+
+        .instagram {
+          width: 100%;
+          max-width: 360px;
+          padding: 0 18px;
+          letter-spacing: 0.12em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="parking" aria-labelledby="main-title">
+        <div class="brand-mark" aria-hidden="true">
+          <img src="public/brand/logo-sobre-negro.jpeg" alt="" />
+        </div>
+
+        <div>
+          <p class="eyebrow">RH.Massoth&eacute;rapeute</p>
+          <h1 id="main-title">Site en construction</h1>
+          <p class="copy">
+            Le nouvel espace en ligne de Ruth Hernica arrive bient&ocirc;t. Massoth&eacute;rapie
+            th&eacute;rapeutique, pr&eacute;sence douce et accompagnement personnalis&eacute; &agrave; Yverdon-les-Bains
+            et dans les environs.
+          </p>
+        </div>
+
+        <p class="location">Yverdon-les-Bains et environs</p>
+
+        <div class="actions">
+          <a
+            class="instagram"
+            href="https://www.instagram.com/rh.massotherapeute/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Visiter le profil Instagram de RH.Massoth&eacute;rapeute"
+          >
+            <svg aria-hidden="true" viewBox="0 0 24 24" fill="none">
+              <rect
+                x="3"
+                y="3"
+                width="18"
+                height="18"
+                rx="5"
+                stroke="currentColor"
+                stroke-width="1.8"
+              />
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8" />
+              <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" />
+            </svg>
+            Visiter Instagram
+          </a>
+        </div>
+
+        <footer>&copy; <span id="year">2026</span> Ruth Hernica</footer>
+      </section>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>

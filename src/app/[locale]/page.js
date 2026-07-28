@@ -40,7 +40,7 @@ export default async function Home({ params }) {
           aria-label="Main navigation"
           className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-[rgba(148,126,76,0.28)] bg-[rgba(249,236,227,0.78)] px-3 py-2 shadow-[0_18px_60px_rgba(68,58,40,0.11)] backdrop-blur-xl"
         >
-          <a href="#top" className="flex items-center gap-3" aria-label="RH.Massotherapeute home">
+          <a href="#top" className="flex items-center gap-3" aria-label="RH.Massotherapie home">
             <span className="relative h-12 w-20 overflow-hidden rounded-full bg-[#0a0a0a] sm:w-24">
               <Image
                 src="/brand/logo-sobre-negro.jpeg"
@@ -52,7 +52,7 @@ export default async function Home({ params }) {
               />
             </span>
             <span className="hidden text-sm tracking-[0.24em] text-[#443a28] sm:inline">
-              RH.MASSOTHERAPEUTE
+              {"RH.MASSOTH\u00c9RAPIE"}
             </span>
           </a>
 
@@ -113,7 +113,7 @@ export default async function Home({ params }) {
               <div className="relative h-[88%] w-[88%] overflow-hidden rounded-full border border-[#d8c8b5] bg-[#0a0a0a] p-4 shadow-[0_30px_90px_rgba(68,58,40,0.18)]">
                 <Image
                   src="/brand/logo-sobre-negro.jpeg"
-                  alt="RH.Massotherapeute black and gold logo"
+                  alt="RH.Massotherapie black and gold logo"
                   fill
                   priority
                   sizes="(min-width: 1024px) 36vw, 84vw"
@@ -176,17 +176,14 @@ export default async function Home({ params }) {
                 key={service.id}
                 className="group rounded-[2.25rem] border border-[#d8c8b5] bg-[#fff8f2] p-7 shadow-[0_18px_50px_rgba(68,58,40,0.09)] transition hover:-translate-y-1 hover:shadow-[0_28px_70px_rgba(68,58,40,0.14)]"
               >
+                <h3 className="font-display text-4xl text-[#947e4c]">{localized(service.name, locale)}</h3>
                 <div className="mb-10 flex items-start justify-between">
-                  <span className="rounded-full border border-[#947e4c]/40 px-4 py-2 text-xs uppercase tracking-[0.18em] text-[#7f5614]">
-                    0{index + 1}
-                  </span>
-                  <span className="font-display text-5xl text-[#947e4c]">{service.price}</span>
+                  <span className="font-display text-3xl leading-none text-[#443a28] text-right w-full">{localized(service.durationLabel, locale)}</span>
                 </div>
-                <h3 className="font-display text-4xl leading-none text-[#443a28]">{localized(service.name, locale)}</h3>
                 <p className="mt-5 text-base leading-7 text-[#5d513d]">{localized(service.description, locale)}</p>
                 <div className="mt-8 flex items-center justify-between border-t border-[#d8c8b5] pt-5">
-                  <span>{localized(service.durationLabel, locale)}</span>
-                  <span className="text-[#7f5614]">CHF</span>
+                  <span></span>
+                  <span className="text-[#7f5614]">{service.price} CHF</span>
                 </div>
               </article>
             ))}
@@ -236,7 +233,7 @@ export default async function Home({ params }) {
                 variant="primary"
               />
               <a
-                href="https://www.instagram.com/rh.massotherapeute/"
+                href="https://www.instagram.com/rh.massotherapie/"
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex min-h-12 items-center justify-center rounded-full border border-[#947e4c]/50 px-6 text-sm uppercase tracking-[0.18em] text-[#443a28] transition hover:border-[#7f5614] hover:bg-[#f9ece3]"

@@ -9,6 +9,7 @@
 - Keep the existing package manager and lockfile setup unless explicitly changed.
 - Implement internationalization for French, English, and Spanish.
 - Use English as the failsafe fallback language.
+- Next implementation step: refactor the current landing view into reusable section components and move i18n helpers to `src/lib/i18n.js` before adding new features.
 
 ## Internationalization Decisions
 
@@ -26,7 +27,7 @@
 - Use the initial extracted brand palette documented in `.agents/context/brand.md`.
 - Use the layout/design direction documented in `.agents/context/design-direction.md`.
 - Public practitioner name/signature: Ruth Hernica.
-- Brand name: RH.MassothÃƒÂ©rapeute.
+- Brand name: RH.MassothÃƒÆ’Ã‚Â©rapeute.
 - Main website background starts from `#f9ece3`.
 - Black logo background reference is `#0a0a0a`.
 - Primary dark website text starts from `#443a28`.

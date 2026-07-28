@@ -56,3 +56,13 @@
    - Add a database for future medical forms, appointment data, and operational records.
    - Database design must follow Swiss FADP/nFADP requirements for sensitive personal data.
    - See `.agents/context/privacy-medical-data.md`.
+
+## Next Milestone
+
+11. Refactor landing into reusable sections
+   - Split the current localized landing view into focused components before adding new features.
+   - Keep `src/app/[locale]/page.js` as the route-level composition layer only.
+   - Extract at least: `Navbar`, `HeroSection`, `AppointmentInfoSection`, `ServicesSection`, `AboutSection`, and `VisitSection`.
+   - Keep `ContactModal` and `LanguageSelector` as reusable client/server components as appropriate.
+   - Move i18n helpers such as locale validation, fallback merging, and localized value lookup into a small `src/lib/i18n.js` helper.
+   - Preserve current behavior for `/`, `/fr`, `/en`, `/es`, Resend contact endpoint, JSON content, and visual design.

@@ -54,3 +54,10 @@
 - Contact can open the planned contact modal.
 - Appointment request calls-to-action should remain visible and easy to reach.
 - Keep the experience premium and personal rather than corporate.
+
+## Prefereneces
+
+- We save for the future the format of this rounded span for enumerations:
+  ```js
+  <span className="rounded-full border border-[#947e4c]/40 px-4 py-2 text-xs uppercase tracking-[0.18em] text-[#7f5614]"> 0</span>
+  ```         

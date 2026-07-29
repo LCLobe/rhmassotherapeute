@@ -16,6 +16,18 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+## Contact Form With Resend
+
+Create a `.env.local` file using `.env.example` as a reference:
+
+```bash
+RESEND_API_KEY=re_...
+CONTACT_FROM_EMAIL="RH.Massotherapie <contact@your-verified-domain.com>"
+CONTACT_TO_EMAIL=ruth@example.com
+```
+
+In Resend, verify the domain used by `CONTACT_FROM_EMAIL`. During early tests, Resend also supports its sandbox sender, but production delivery should use Ruth's verified domain email. The form sends appointment requests through `POST /api/contact` and uses `CONTACT_TO_EMAIL` as the recipient.
+
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.

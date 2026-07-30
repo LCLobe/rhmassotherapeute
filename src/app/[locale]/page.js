@@ -5,6 +5,7 @@ import AppointmentInfoSection from "../components/AppointmentInfoSection";
 import HeroSection from "../components/HeroSection";
 import HomeNavigation from "../components/HomeNavigation";
 import ServicesSection from "../components/ServicesSection";
+import SiteFooter from "../components/SiteFooter";
 import VisitSection from "../components/VisitSection";
 import servicesData from "../../data/services.json";
 import siteContent from "../../data/site-content.json";
@@ -44,6 +45,7 @@ export default async function Home({ params }) {
       <ServicesSection content={content} locale={locale} services={services} />
       <AboutSection content={content} />
       <VisitSection content={content} extras={extras} locale={locale} services={services} />
+      <SiteFooter content={content} />
     </main>
   );
 }

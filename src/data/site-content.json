@@ -20,7 +20,8 @@
     "services": {
       "eyebrow": "Initial services",
       "title": "Treatments designed for recovery and deep rest.",
-      "copy": "The first catalog stays focused and easy to understand. Each appointment request can include optional extras, then Ruth confirms the details personally."
+      "copy": "The first catalog stays focused and easy to understand. Each appointment request can include optional extras, then Ruth confirms the details personally.",
+      "priceNote": "* The final price may vary depending on the optional extras selected."
     },
     "about": {
       "eyebrow": "About Ruth",
@@ -60,6 +61,27 @@
         "message": "Message",
         "messagePlaceholder": "If you have a question or a specific therapeutic need, tell me here, even if the treatment you are looking for is not listed on the website."
       }
+    },
+    "footer": {
+      "brand": "RH.Massoth\u00e9rapeute",
+      "signature": "Therapeutic massage by Ruth Hernica in Yverdon-les-Bains and surroundings.",
+      "copyright": "\u00a9 {year} Ruth Hernica. All rights reserved.",
+      "legalNote": "Information on this site is general and does not replace medical advice.",
+      "creditPrefix": "Website created by",
+      "legalSections": [
+        {
+          "title": "Legal notice",
+          "copy": "Publisher and data controller: Ruth Hernica, RH.Massoth\u00e9rapeute, Yverdon-les-Bains, Switzerland."
+        },
+        {
+          "title": "Privacy",
+          "copy": "The contact form collects only the details you send: name, email, preferred service, desired time, optional extras and message. They are used only to reply to you and provide the requested service."
+        },
+        {
+          "title": "Data use",
+          "copy": "The website does not store emails or contact requests in a database. Messages are sent by email through Resend. You may request access, correction or deletion of your data through the same contact channels and directly to Resend."
+        }
+      ]
     }
   },
   "fr": {
@@ -83,7 +105,8 @@
     "services": {
       "eyebrow": "Premiers services",
       "title": "Des soins pens\u00e9s pour la r\u00e9cup\u00e9ration et le repos profond.",
-      "copy": "Le premier catalogue reste simple et lisible. Chaque demande peut inclure des options, puis Ruth confirme personnellement les d\u00e9tails."
+      "copy": "Le premier catalogue reste simple et lisible. Chaque demande peut inclure des options, puis Ruth confirme personnellement les d\u00e9tails.",
+      "priceNote": "* Le prix final peut varier selon les options s\u00e9lectionn\u00e9es."
     },
     "about": {
       "eyebrow": "\u00c0 propos de Ruth",
@@ -123,6 +146,27 @@
         "message": "Message",
         "messagePlaceholder": "Si vous avez une question ou un besoin th\u00e9rapeutique particulier, vous pouvez me l'indiquer ici, m\u00eame si le soin recherch\u00e9 n'appara\u00eet pas sur le site."
       }
+    },
+    "footer": {
+      "brand": "RH.Massoth\u00e9rapeute",
+      "signature": "Massage th\u00e9rapeutique par Ruth Hernica \u00e0 Yverdon-les-Bains et alentours.",
+      "copyright": "\u00a9 {year} Ruth Hernica. Tous droits r\u00e9serv\u00e9s.",
+      "legalNote": "Les informations de ce site sont g\u00e9n\u00e9rales et ne remplacent pas un avis m\u00e9dical.",
+      "creditPrefix": "Site web r\u00e9alis\u00e9 par",
+      "legalSections": [
+        {
+          "title": "Mentions l\u00e9gales",
+          "copy": "\u00c9ditrice et responsable du traitement des donn\u00e9es : Ruth Hernica, RH.Massoth\u00e9rapeute, Yverdon-les-Bains, Suisse."
+        },
+        {
+          "title": "Confidentialit\u00e9",
+          "copy": "Le formulaire de contact collecte uniquement les informations que vous envoyez : nom, email, service souhait\u00e9, horaire souhait\u00e9, options et message. Elles servent uniquement \u00e0 vous r\u00e9pondre et \u00e0 fournir le service demand\u00e9."
+        },
+        {
+          "title": "Utilisation des donn\u00e9es",
+          "copy": "Le site ne conserve pas les emails ni les demandes de contact dans une base de donn\u00e9es. Les messages sont envoy\u00e9s par email via Resend. Vous pouvez demander l'acc\u00e8s, la rectification ou la suppression de vos donn\u00e9es par les m\u00eames canaux de contact et directement aupr\u00e8s de Resend."
+        }
+      ]
     }
   },
   "es": {
@@ -146,7 +190,8 @@
     "services": {
       "eyebrow": "Servicios iniciales",
       "title": "Tratamientos pensados para recuperaci\u00f3n y descanso profundo.",
-      "copy": "El primer cat\u00e1logo se mantiene claro y f\u00e1cil de entender. Cada solicitud puede incluir extras opcionales y despu\u00e9s Ruth confirma personalmente los detalles."
+      "copy": "El primer cat\u00e1logo se mantiene claro y f\u00e1cil de entender. Cada solicitud puede incluir extras opcionales y despu\u00e9s Ruth confirma personalmente los detalles.",
+      "priceNote": "* El precio final puede variar seg\u00fan los extras seleccionados."
     },
     "about": {
       "eyebrow": "Sobre Ruth",
@@ -186,6 +231,27 @@
         "message": "Mensaje",
         "messagePlaceholder": "Si tienes alguna pregunta o una necesidad terap\u00e9utica concreta, cu\u00e9ntamela aqu\u00ed, aunque el tratamiento que buscas no aparezca en la web."
       }
+    },
+    "footer": {
+      "brand": "RH.Massoth\u00e9rapeute",
+      "signature": "Masaje terap\u00e9utico por Ruth Hernica en Yverdon-les-Bains y alrededores.",
+      "copyright": "\u00a9 {year} Ruth Hernica. Todos los derechos reservados.",
+      "legalNote": "La informaci\u00f3n de esta web es general y no sustituye el consejo m\u00e9dico.",
+      "creditPrefix": "Web realizada por",
+      "legalSections": [
+        {
+          "title": "Aviso legal",
+          "copy": "Editora y responsable del tratamiento de datos: Ruth Hernica, RH.Massoth\u00e9rapeute, Yverdon-les-Bains, Suiza."
+        },
+        {
+          "title": "Privacidad",
+          "copy": "El formulario de contacto recoge solo los datos que env\u00edas: nombre, email, servicio preferido, horario deseado, extras opcionales y mensaje. Se utilizan solo para responderte y prestar el servicio solicitado."
+        },
+        {
+          "title": "Uso de datos",
+          "copy": "La web no guarda emails ni solicitudes de contacto en una base de datos. Los mensajes se env\u00edan por email mediante Resend. Puedes solicitar acceso, correcci\u00f3n o eliminaci\u00f3n de tus datos a trav\u00e9s de los mismos canales de contacto y directamente a Resend."
+        }
+      ]
     }
   }
 }

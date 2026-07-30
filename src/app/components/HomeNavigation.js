@@ -81,19 +81,16 @@ export default function HomeNavigation({ content, extras, locale, services }) {
         aria-label="Main navigation"
         className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-[rgba(148,126,76,0.28)] bg-[rgba(249,236,227,0.78)] px-3 py-2 shadow-[0_18px_60px_rgba(68,58,40,0.11)] backdrop-blur-xl"
       >
-        <a href="#top" className="flex items-center gap-3" aria-label="RH.Massotherapie home">
-          <span className="relative h-12 w-20 overflow-hidden rounded-full bg-[#0a0a0a] sm:w-24">
+        <a href="#top" className="flex items-center" aria-label="RH.Massotherapie home">
+          <span className="relative h-12 w-32 overflow-hidden rounded-full bg-[#0a0a0a] sm:h-14 sm:w-40 lg:w-44">
             <Image
-              src="/brand/logo-sobre-negro.jpeg"
+              src="/brand/rh-logo-longitudinal.png"
               alt=""
               fill
               priority
-              sizes="96px"
+              sizes="(min-width: 1024px) 176px, (min-width: 640px) 160px, 128px"
               className="object-cover object-center"
             />
-          </span>
-          <span className="hidden text-sm tracking-[0.24em] text-[#443a28] lg:inline">
-            {"RH.MASSOTH\u00c9RAPIE"}
           </span>
         </a>
 

@@ -122,7 +122,7 @@ export default function ContactModal({
   const triggerClass =
     variant === "primary"
       ? "inline-flex min-h-12 items-center justify-center rounded-full bg-[#0a0a0a] px-6 text-sm uppercase tracking-[0.18em] text-[#f9ece3] shadow-[0_16px_36px_rgba(10,10,10,0.22)] transition hover:bg-[#443a28]"
-      : "inline-flex min-h-11 items-center justify-center rounded-full bg-[#0a0a0a] px-5 text-sm uppercase tracking-[0.16em] text-[#f9ece3] transition hover:bg-[#443a28]";
+      : "inline-flex min-h-11 items-center justify-center rounded-full bg-[#0a0a0a] px-5 text-sm uppercase tracking-[0.16em] text-[#ddb970] transition hover:bg-[#443a28]";
 
   const modal =
     open && typeof document !== "undefined" ? (

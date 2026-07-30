@@ -30,11 +30,12 @@ export default function ServicesSection({ content, locale, services }) {
               <p className="mt-5 text-base leading-7 text-[#5d513d]">{localized(service.description, locale)}</p>
               <div className="mt-8 flex items-center justify-between border-t border-[#d8c8b5] pt-5">
                 <span></span>
-                <span className="text-[#7f5614]">{service.price} CHF</span>
+                <span className="text-[#7f5614]">* {service.price} CHF</span>
               </div>
             </article>
           ))}
         </div>
+        <p className="mt-6 max-w-3xl text-sm leading-6 text-[#5d513d]">{content.services.priceNote}</p>
       </div>
     </section>
   );

@@ -64,6 +64,7 @@
 
 ## Privacy And Medical Data Decisions
 
+- Public footer/legal/privacy wording should use the Swiss sources and interpretation documented in `.agents/context/legal-privacy-swiss-sources.md`.
 - Future medical, allergy, and medication forms must follow the privacy direction in `.agents/context/privacy-medical-data.md`.
 - Treat health-related form data as sensitive personal data under Swiss FADP/nFADP.
 - Do not store sensitive medical data in a database until consent, retention, deletion, access control, hosting region, and security requirements are defined.

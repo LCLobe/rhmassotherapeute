@@ -102,19 +102,17 @@ export default function ContactModal({
       });
 
       const result = await response.json().catch(() => ({}));
-      const sent = response.ok && result.sent === true;
+      const sent = response.status === 200 && result.sent === true; 
+
+      if (!sent) {
+        throw new Error(result.message || "Error sending contact form");
+      }
+
       setStatus(sent ? "sent" : "error");
       setMessage(result.message || getFallbackMessage(locale, sent ? "success" : "error"));
 
-      if (sent) {
-        event.currentTarget.reset();
-        closeTimerRef.current = setTimeout(() => {
-          closeModal();
-        }, 2400);
-      } else {
-        isSubmittingRef.current = false;
-      }
-    } catch {
+    } catch (error) {
+      console.error("Error sending contact form", error);
       isSubmittingRef.current = false;
       setStatus("error");
       setMessage(getFallbackMessage(locale, "error"));
@@ -160,12 +158,12 @@ export default function ContactModal({
           </div>
 
           {status === "sent" ? (
-            <div className="mt-8 rounded-2xl border border-[#947e4c]/35 bg-[#f9ece3] p-6 text-[#443a28]">
+            <div className="mt-8 flex flex-col justify-content rounded-2xl border border-[#947e4c]/35 bg-[#f9ece3] p-6 text-[#443a28]">
               <p className="font-display text-3xl leading-tight">{message}</p>
               <button
                 type="button"
                 onClick={closeModal}
-                className="mt-6 min-h-12 rounded-full bg-[#0a0a0a] px-6 text-sm uppercase tracking-[0.18em] text-[#f9ece3] transition hover:bg-[#443a28]"
+                className="mt-6 min-h-12 mx-auto rounded-full bg-[#0a0a0a] px-6 text-sm uppercase tracking-[0.18em] text-[#f9ece3] transition hover:bg-[#443a28]"
               >
                 {getFallbackMessage(locale, "close")}
               </button>

@@ -34,12 +34,16 @@ const languages = [
   { locale: "es", label: "Español", shortLabel: "ES", Flag: FlagSpain },
 ];
 
-export default function LanguageSelector({ currentLocale }) {
+export default function LanguageSelector({ currentLocale, onOpenChange, open = false }) {
   const current = languages.find((language) => language.locale === currentLocale) ?? languages[0];
   const CurrentFlag = current.Flag;
 
   return (
-    <details className="group relative">
+    <details
+      className="group relative"
+      open={open}
+      onToggle={(event) => onOpenChange?.(event.currentTarget.open)}
+    >
       <summary className="flex min-h-11 cursor-pointer list-none items-center gap-2 rounded-full px-3 py-2 transition hover:bg-white/45" aria-label="Choose language">
         <CurrentFlag />
         <span className="text-sm uppercase tracking-[0.12em]">{current.shortLabel}</span>
@@ -51,6 +55,7 @@ export default function LanguageSelector({ currentLocale }) {
             key={locale}
             href={`/${locale}`}
             aria-current={locale === currentLocale ? "page" : undefined}
+            onClick={() => onOpenChange?.(false)}
             className="flex items-center gap-3 rounded-2xl px-3 py-3 text-sm transition hover:bg-[#f9ece3] aria-[current=page]:bg-[#f9ece3]"
           >
             <Flag />

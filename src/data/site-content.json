@@ -6,38 +6,38 @@
       "contact": "Contact"
     },
     "hero": {
-      "eyebrow": "RH.MASSOTHERAPIE - YVERDON-LES-BAINS",
-      "title": "Therapeutic massage with a calm, personal presence.",
-      "copy": "Ruth Hernica offers relaxing and sports massage sessions for people who want to release tension, recover better, and feel cared for without a clinical atmosphere.",
+      "eyebrow": "RH.MASSOTHERAPIE",
+      "title": "Pause your stress. Activate your well-being.",
+      "copy": "Every body tells a story. Each massage begins with listening, adapts to your needs, and seeks to prevent, relax, and restore balance.",
       "primaryCta": "Request an appointment",
       "secondaryCta": "View services",
       "highlights": [
         { "label": "Area", "value": "Yverdon-les-Bains and surroundings" },
-        { "label": "Contact", "value": "Instagram + request form" },
+        { "label": "Socials", "value": "Instagram" },
         { "label": "Approach", "value": "Personal, calm, therapeutic" }
       ]
     },
     "services": {
       "eyebrow": "Initial services",
-      "title": "Treatments designed for recovery and deep rest.",
-      "copy": "The first catalog stays focused and easy to understand. Each appointment request can include optional extras, then Ruth confirms the details personally.",
+      "title": "Treatments designed for prevention, recovery, and relaxation.",
+      "copy": "Each appointment request can include optional extras, then Ruth confirms the details personally.",
       "priceNote": "* The final price may vary depending on the optional extras selected."
     },
     "about": {
       "eyebrow": "About Ruth",
-      "title": "A practitioner-led service, not a clinic catalog.",
-      "copy": "Ruth Hernica is the person behind RH.Massoth\u00e9rapie. The website is designed to feel close, elegant, and practical: enough information to choose a treatment, and a simple way to start the conversation.",
+      "title": "Biologist by choice. Massage therapist by vocation.",
+      "copy": "Ruth Hernica brings together her perspective as a biologist, her vocation, and her training as a massage therapist to offer attentive and professional support. Each session begins with listening to the body and to your needs in the moment.",
       "points": [
-        "Therapeutic care with a gentle visual identity.",
-        "No client imagery used for privacy and intimacy.",
-        "Future-ready for booking, payments, and feedback."
+        "Practical knowledge shaped by my training.",
+        "Attention to detail and professional rigor developed through my professional experience.",
+        "Continuous training, constant learning, and integration of varied techniques."
       ]
     },
     "visit": {
       "eyebrow": "Visit and appointments",
-      "title": "Located around Yverdon-les-Bains.",
-      "copy": "For the first version, appointments are requested through the form and confirmed manually. Full calendar availability can be connected later.",
-      "cta": "Ask for a time"
+      "title": "Located around Yverdon-les-Bains and surroundings.",
+      "copy": "Appointments are requested through the form and confirmed manually.",
+      "cta": "Request an appointment"
     },
     "extras": {
       "eyebrow": "Extras",
@@ -51,10 +51,12 @@
       "sending": "Sending...",
       "fields": {
         "name": "Name",
+        "requiredLegend": "Required field",
         "email": "Email",
+        "phone": "Mobile phone",
         "service": "Preferred service",
         "servicePlaceholder": "Choose a service",
-        "otherService": "Other",
+        "otherService": "Request information",
         "preferredDate": "Preferred date or time",
         "preferredDatePlaceholder": "For example: next Thursday afternoon",
         "extras": "Optional extras",
@@ -75,7 +77,7 @@
         },
         {
           "title": "Privacy",
-          "copy": "The contact form collects only the details you send: name, email, preferred service, desired time, optional extras and message. They are used only to reply to you and provide the requested service."
+          "copy": "The contact form collects only the details you send: name, email, mobile phone, preferred service, desired time, optional extras and message. They are used only to reply to you and provide the requested service."
         },
         {
           "title": "Data use",
@@ -91,38 +93,38 @@
       "contact": "Contact"
     },
     "hero": {
-      "eyebrow": "RH.MASSOTH\u00c9RAPIE - YVERDON-LES-BAINS",
-      "title": "Massage th\u00e9rapeutique dans une pr\u00e9sence calme et personnelle.",
-      "copy": "Ruth Hernica propose des massages relaxants et sportifs pour aider \u00e0 rel\u00e2cher les tensions, mieux r\u00e9cup\u00e9rer et se sentir accompagn\u00e9 avec attention, sans atmosph\u00e8re clinique.",
+      "eyebrow": "RH.MASSOTH\u00c9RAPIE",
+      "title": "Mettez votre stress en pause. Activez votre bien-\u00EAtre.",
+      "copy": "Chaque corps raconte une histoire. Chaque massage na\u00EEt de l'\u00E9coute, s'adapte \u00E0 vos besoins et cherche \u00E0 pr\u00E9venir, relaxer et restaurer l'\u00E9quilibre.",
       "primaryCta": "Demander un rendez-vous",
       "secondaryCta": "Voir les services",
       "highlights": [
         { "label": "Zone", "value": "Yverdon-les-Bains et alentours" },
-        { "label": "Contact", "value": "Instagram + formulaire" },
+        { "label": "Réseaux sociaux", "value": "Instagram" },
         { "label": "Approche", "value": "Personnelle, calme, th\u00e9rapeutique" }
       ]
     },
     "services": {
       "eyebrow": "Premiers services",
-      "title": "Des soins pens\u00e9s pour la r\u00e9cup\u00e9ration et le repos profond.",
-      "copy": "Le premier catalogue reste simple et lisible. Chaque demande peut inclure des options, puis Ruth confirme personnellement les d\u00e9tails.",
+      "title": "Des soins pens\u00e9s pour la pr\u00e9vention, la r\u00e9cup\u00e9ration et la relaxation.",
+      "copy": "Chaque demande peut inclure des options, puis Ruth confirme personnellement les d\u00e9tails.",
       "priceNote": "* Le prix final peut varier selon les options s\u00e9lectionn\u00e9es."
     },
     "about": {
       "eyebrow": "\u00c0 propos de Ruth",
-      "title": "Un service port\u00e9 par une praticienne, pas un catalogue de clinique.",
-      "copy": "Ruth Hernica est la personne derri\u00e8re RH.Massoth\u00e9rapie. Le site est con\u00e7u pour \u00eatre proche, \u00e9l\u00e9gant et pratique : assez d'information pour choisir un soin, et une mani\u00e8re simple d'ouvrir la conversation.",
+      "title": "Biologiste par choix. Massoth\u00E9rapeute par vocation.",
+      "copy": "Ruth Hernica réunit son regard de biologiste, sa vocation et sa formation de massothérapeute pour proposer un accompagnement attentif et professionnel. Chaque séance part de l'écoute du corps et de vos besoins du moment.",
       "points": [
-        "Un accompagnement th\u00e9rapeutique avec une identit\u00e9 visuelle douce.",
-        "Aucune image de client afin de respecter la vie priv\u00e9e et l'intimit\u00e9.",
-        "Pr\u00eat pour les futures r\u00e9servations, paiements et retours clients."
+        "Un savoir pratique issu de ma formation.",
+        "Une attention au détail et une rigueur professionnelle développées à travers mon expérience professionnelle.",
+        "Formation continue, apprentissage constant et intégration de techniques variées."
       ]
     },
     "visit": {
       "eyebrow": "Lieu et rendez-vous",
-      "title": "Autour d'Yverdon-les-Bains.",
-      "copy": "Pour la premi\u00e8re version, les rendez-vous sont demand\u00e9s via le formulaire puis confirm\u00e9s manuellement. La disponibilit\u00e9 du calendrier pourra \u00eatre connect\u00e9e plus tard.",
-      "cta": "Demander un cr\u00e9neau"
+      "title": "Autour d'Yverdon-les-Bains et alentours.",
+      "copy": "Les rendez-vous sont demand\u00e9s via le formulaire puis confirm\u00e9s manuellement.",
+      "cta": "Demander un rendez-vous"
     },
     "extras": {
       "eyebrow": "Options",
@@ -136,10 +138,12 @@
       "sending": "Envoi...",
       "fields": {
         "name": "Nom",
+        "requiredLegend": "Champ obligatoire",
         "email": "Email",
+        "phone": "Téléphone mobile",
         "service": "Service souhait\u00e9",
         "servicePlaceholder": "Choisir un service",
-        "otherService": "Autre",
+        "otherService": "Demander des informations",
         "preferredDate": "Date ou horaire souhait\u00e9",
         "preferredDatePlaceholder": "Par exemple : jeudi prochain apr\u00e8s-midi",
         "extras": "Options",
@@ -160,7 +164,7 @@
         },
         {
           "title": "Confidentialit\u00e9",
-          "copy": "Le formulaire de contact collecte uniquement les informations que vous envoyez : nom, email, service souhait\u00e9, horaire souhait\u00e9, options et message. Elles servent uniquement \u00e0 vous r\u00e9pondre et \u00e0 fournir le service demand\u00e9."
+          "copy": "Le formulaire de contact collecte uniquement les informations que vous envoyez : nom, email, téléphone mobile, service souhait\u00e9, horaire souhait\u00e9, options et message. Elles servent uniquement \u00e0 vous r\u00e9pondre et \u00e0 fournir le service demand\u00e9."
         },
         {
           "title": "Utilisation des donn\u00e9es",
@@ -176,38 +180,38 @@
       "contact": "Contacto"
     },
     "hero": {
-      "eyebrow": "RH.MASSOTH\u00c9RAPIE - YVERDON-LES-BAINS",
-      "title": "Masaje terap\u00e9utico con una presencia calma y personal.",
-      "copy": "Ruth Hernica ofrece masajes relajantes y deportivos para personas que quieren liberar tensi\u00f3n, recuperarse mejor y sentirse cuidadas sin un ambiente cl\u00ednico.",
+      "eyebrow": "RH.MASSOTH\u00c9RAPIE",
+      "title": "Pausa tu estrés. Activa tu bienestar.",
+      "copy": "Cada cuerpo cuenta una historia. Por eso cada masaje nace de la escucha, se adapta a tus necesidades y busca prevenir, relajar y restaurar el equilibrio.",
       "primaryCta": "Solicitar cita",
       "secondaryCta": "Ver servicios",
       "highlights": [
         { "label": "Zona", "value": "Yverdon-les-Bains y alrededores" },
-        { "label": "Contacto", "value": "Instagram + formulario" },
+        { "label": "Redes sociales", "value": "Instagram" },
         { "label": "Enfoque", "value": "Personal, calmado, terap\u00e9utico" }
       ]
     },
     "services": {
       "eyebrow": "Servicios iniciales",
-      "title": "Tratamientos pensados para recuperaci\u00f3n y descanso profundo.",
-      "copy": "El primer cat\u00e1logo se mantiene claro y f\u00e1cil de entender. Cada solicitud puede incluir extras opcionales y despu\u00e9s Ruth confirma personalmente los detalles.",
+      "title": "Tratamientos pensados para la prevenci\u00f3n, la recuperaci\u00f3n y el relax.",
+      "copy": "Cada solicitud puede incluir extras opcionales y despu\u00e9s Ruth confirma personalmente los detalles.",
       "priceNote": "* El precio final puede variar seg\u00fan los extras seleccionados."
     },
     "about": {
       "eyebrow": "Sobre Ruth",
-      "title": "Un servicio llevado por una profesional, no un cat\u00e1logo de cl\u00ednica.",
-      "copy": "Ruth Hernica es la persona detr\u00e1s de RH.Massoth\u00e9rapie. La web est\u00e1 pensada para sentirse cercana, elegante y pr\u00e1ctica: suficiente informaci\u00f3n para elegir un tratamiento y una forma sencilla de iniciar la conversaci\u00f3n.",
+      "title": "Bi\u00f3loga por elecci\u00f3n. Masajista por vocaci\u00f3n.",
+      "copy": "Ruth Hernica reúne su mirada de bióloga, su vocación y su formación como masoterapeuta para ofrecer un acompañamiento atento y profesional. Cada sesión parte de la escucha del cuerpo y de tus necesidades del momento.",
       "points": [
-        "Cuidado terap\u00e9utico con una identidad visual suave.",
-        "Sin im\u00e1genes de clientes para respetar privacidad e intimidad.",
-        "Preparada para futuras reservas, pagos y comentarios."
+        "Conocimiento práctico fruto de mi formación.",
+        "Atención al detalle y rigor profesional desarrollados a través de mi experiencia profesional.",
+        "Formación continua, aprendizaje constante e integración de técnicas variadas."
       ]
     },
     "visit": {
       "eyebrow": "Ubicaci\u00f3n y citas",
-      "title": "En la zona de Yverdon-les-Bains.",
-      "copy": "En la primera versi\u00f3n, las citas se solicitan mediante el formulario y se confirman manualmente. M\u00e1s adelante se podr\u00e1 conectar la disponibilidad del calendario.",
-      "cta": "Pedir una hora"
+      "title": "En la zona de Yverdon-les-Bains y alrededores.",
+      "copy": "Las citas se solicitan mediante el formulario y se confirman manualmente.",
+      "cta": "Solicitar cita"
     },
     "extras": {
       "eyebrow": "Extras",
@@ -221,10 +225,12 @@
       "sending": "Enviando...",
       "fields": {
         "name": "Nombre",
+        "requiredLegend": "Campo obligatorio",
         "email": "Email",
+        "phone": "Teléfono móvil",
         "service": "Servicio preferido",
         "servicePlaceholder": "Elige un servicio",
-        "otherService": "Otro",
+        "otherService": "Solicitar información",
         "preferredDate": "Fecha u hora preferida",
         "preferredDatePlaceholder": "Por ejemplo: el pr\u00f3ximo jueves por la tarde",
         "extras": "Extras opcionales",
@@ -245,7 +251,7 @@
         },
         {
           "title": "Privacidad",
-          "copy": "El formulario de contacto recoge solo los datos que env\u00edas: nombre, email, servicio preferido, horario deseado, extras opcionales y mensaje. Se utilizan solo para responderte y prestar el servicio solicitado."
+          "copy": "El formulario de contacto recoge solo los datos que env\u00edas: nombre, email, teléfono móvil, servicio preferido, horario deseado, extras opcionales y mensaje. Se utilizan solo para responderte y prestar el servicio solicitado."
         },
         {
           "title": "Uso de datos",

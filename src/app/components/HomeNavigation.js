@@ -84,7 +84,8 @@ export default function HomeNavigation({ content, extras, locale, services }) {
         <a href="#top" className="flex items-center" aria-label="RH.Massotherapie home">
           <span className="relative h-12 w-32 overflow-hidden rounded-full bg-[#0a0a0a] sm:h-14 sm:w-40 lg:w-44">
             <Image
-              src="/brand/rh-logo-longitudinal.png"
+              // src="/brand/rh-logo-longitudinal.png"
+              src="/brand/Logo-Ruth-Solo-Letras.png"
               alt=""
               fill
               priority

@@ -2,7 +2,7 @@
   "services": [
     {
       "id": "relaxing-massage-60",
-      "price": 150,
+      "price": 130,
       "durationMinutes": 60,
       "durationLabel": {
         "en": "1 hour",
@@ -11,13 +11,13 @@
       },
       "name": {
         "en": "Relaxing full-body massage",
-        "fr": "Massage relaxant g\u00e9n\u00e9ral",
+        "fr": "Massage relaxant général",
         "es": "Masaje general relajante"
       },
       "description": {
         "en": "A complete relaxation session designed to release tension and restore a calmer rhythm.",
-        "fr": "Une s\u00e9ance compl\u00e8te de d\u00e9tente pens\u00e9e pour rel\u00e2cher les tensions et retrouver un rythme plus calme.",
-        "es": "Una sesi\u00f3n completa de relajaci\u00f3n pensada para liberar tensi\u00f3n y recuperar un ritmo m\u00e1s tranquilo."
+        "fr": "Une séance complète de détente pensée pour relâcher les tensions et retrouver un rythme plus calme.",
+        "es": "Una sesión completa de relajación pensada para liberar tensión y recuperar un ritmo más tranquilo."
       }
     },
     {
@@ -31,59 +31,82 @@
       },
       "name": {
         "en": "Relaxing full-body massage",
-        "fr": "Massage relaxant g\u00e9n\u00e9ral",
+        "fr": "Massage relaxant général",
         "es": "Masaje general relajante"
       },
       "description": {
         "en": "A shorter calming treatment for a focused pause, ideal when time is limited.",
-        "fr": "Un soin plus court et apaisant pour une pause cibl\u00e9e, id\u00e9al lorsque le temps est limit\u00e9.",
-        "es": "Un tratamiento m\u00e1s breve y calmante para una pausa enfocada, ideal cuando el tiempo es limitado."
+        "fr": "Un soin plus court et apaisant pour une pause ciblée, idéal lorsque le temps est limité.",
+        "es": "Un tratamiento más breve y calmante para una pausa enfocada, ideal cuando el tiempo es limitado."
       }
     },
     {
-      "id": "sports-massage-30",
-      "price": 80,
-      "durationMinutes": 30,
+      "id": "sports-massage-20",
+      "price": 75,
+      "durationMinutes": 20,
       "durationLabel": {
-        "en": "30 minutes",
-        "fr": "30 minutes",
-        "es": "30 minutos"
+        "en": "15-20 minutes",
+        "fr": "15-20 minutes",
+        "es": "15-20 minutos"
       },
       "name": {
-        "en": "Sports massage",
-        "fr": "Massage sportif",
-        "es": "Masaje deportivo"
+        "en": "Sports massage for activation or recovery",
+        "fr": "Massage sportif d'activation ou récupération",
+        "es": "Masaje deportivo de activación o recuperación"
       },
       "description": {
-        "en": "Targeted work for active bodies, supporting recovery, mobility, and muscular comfort.",
-        "fr": "Un travail cibl\u00e9 pour les corps actifs, en soutien \u00e0 la r\u00e9cup\u00e9ration, la mobilit\u00e9 et le confort musculaire.",
-        "es": "Trabajo espec\u00edfico para cuerpos activos, enfocado en recuperaci\u00f3n, movilidad y confort muscular."
+        "en": "A short targeted massage to activate the body before activity or support recovery after effort, helping release muscular tension and improve comfort.",
+        "fr": "Un massage court et ciblé pour activer le corps avant l'activité ou accompagner la récupération après l'effort, en aidant à relâcher les tensions musculaires et à améliorer le confort.",
+        "es": "Un masaje corto y específico para activar el cuerpo antes de la actividad o acompañar la recuperación después del esfuerzo, ayudando a liberar tensiones musculares y mejorar el confort."
+      }
+    },
+    {
+      "id": "sports-massage-40",
+      "price": 150,
+      "durationMinutes": 40,
+      "durationLabel": {
+        "en": "40 minutes",
+        "fr": "40 minutes",
+        "es": "40 minutos"
+      },
+      "name": {
+        "en": "Sports massage for preparation",
+        "fr": "Massage sportif de préparation",
+        "es": "Masaje deportivo de preparación"
+      },
+      "description": {
+        "en": "A deeper preparation massage for active bodies, designed a few days before physical effort to release accumulated tension and help the body feel ready.",
+        "fr": "Un massage de préparation plus profond pour les corps actifs, pensé quelques jours avant l'effort afin de relâcher les tensions accumulées et d'aider le corps à se sentir prêt.",
+        "es": "Un masaje de preparación más profundo para cuerpos activos, pensado unos días antes del esfuerzo para liberar tensiones acumuladas y ayudar al cuerpo a sentirse preparado."
       }
     }
   ],
   "extras": [
     {
       "id": "home-travel",
+      "price": 50,
       "name": {
         "en": "Travel to the client's home",
-        "fr": "D\u00e9placement au domicile du client",
+        "fr": "Déplacement au domicile du client",
         "es": "Desplazamiento a casa del cliente"
       }
     },
     {
       "id": "aromatic-essences",
+      "price": 20,
       "name": {
         "en": "Use of aromatic essences",
         "fr": "Utilisation d'essences aromatiques",
-        "es": "Uso de esencias arom\u00e1ticas"
+        "es": "Uso de esencias aromáticas"
       }
     },
     {
-      "id": "other",
+      "id": "heated-blanket",
+      "price": 0,
       "name": {
-        "en": "Other request",
-        "fr": "Autre demande",
-        "es": "Otra petici\u00f3n"
+        "en": "Heated blanket for table comfort",
+        "fr": "Couverture chauffante pour le confort de la table",
+        "es": "Mantita calefactora para mayor confort en la camilla"
       }
     }
   ]

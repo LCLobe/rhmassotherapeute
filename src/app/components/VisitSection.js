@@ -1,12 +1,9 @@
 import ContactModal from "./ContactModal";
-import { localized } from "./localization";
 
 export default function VisitSection({ content, extras, locale, services }) {
-  const visibleExtras = extras.filter((extra) => extra.id !== "other");
-
   return (
     <section id="visit" className="px-5 py-24 sm:px-8 lg:px-12">
-      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1fr_0.85fr]">
+      <div className="mx-auto max-w-7xl">
         <div className="rounded-[2.5rem] bg-[#fff8f2] p-8 shadow-[0_18px_50px_rgba(68,58,40,0.09)] md:p-12">
           <p className="text-sm uppercase tracking-[0.34em] text-[#7f5614]">{content.visit.eyebrow}</p>
           <h2 className="mt-4 font-display text-5xl leading-none text-[#443a28] md:text-7xl">{content.visit.title}</h2>
@@ -30,17 +27,6 @@ export default function VisitSection({ content, extras, locale, services }) {
             </a>
           </div>
         </div>
-        <aside className="rounded-[2.5rem] border border-[#d8c8b5] p-8">
-          <p className="text-sm uppercase tracking-[0.34em] text-[#7f5614]">{content.extras.eyebrow}</p>
-          <h3 className="mt-4 font-display text-4xl leading-none text-[#443a28]">{content.extras.title}</h3>
-          <ul className="mt-8 space-y-4">
-            {visibleExtras.map((extra) => (
-              <li key={extra.id} className="rounded-[1.5rem] bg-[#fff8f2] px-5 py-4 text-[#5d513d]">
-                {localized(extra.name, locale)}
-              </li>
-            ))}
-          </ul>
-        </aside>
       </div>
     </section>
   );

@@ -1,6 +1,6 @@
 import servicesData from "@/data/services.json";
 
-const requiredFields = ["name", "email", "service"];
+const requiredFields = ["name", "email", "phone", "service"];
 const supportedLocales = ["en", "fr", "es"];
 const maxFieldLength = 120;
 const maxMessageLength = 1500;
@@ -54,7 +54,7 @@ function localized(value, locale) {
 
 function getServiceLabel(serviceId, locale) {
   if (serviceId === "other") {
-    return locale === "fr" ? "Autre" : locale === "es" ? "Otro" : "Other";
+    return locale === "fr" ? "Demander des informations" : locale === "es" ? "Solicitar información" : "Request information";
   }
 
   const service = servicesData.services.find((item) => item.id === serviceId);
@@ -68,7 +68,7 @@ function getServiceLabel(serviceId, locale) {
 
 function getExtraLabel(extraId, locale) {
   const extra = servicesData.extras.find((item) => item.id === extraId);
-  return extra ? localized(extra.name, locale) : extraId;
+  return extra ? `${localized(extra.name, locale)} - CHF ${extra.price}` : extraId;
 }
 
 function buildEmailText(payload, locale) {
@@ -79,6 +79,7 @@ function buildEmailText(payload, locale) {
     "",
     `Name: ${payload.name}`,
     `Email: ${payload.email}`,
+    `Mobile phone: ${payload.phone}`,
     `Preferred service: ${getServiceLabel(payload.service, locale)}`,
     `Preferred date/time: ${payload.preferredDate || "Not specified"}`,
     `Optional extras: ${extras.join(", ") || "None"}`,
@@ -116,6 +117,7 @@ export async function POST(request) {
   const payload = {
     name: cleanText(body.name),
     email: cleanText(body.email),
+    phone: cleanText(body.phone),
     service: cleanText(body.service),
     preferredDate: cleanText(body.preferredDate),
     extras: cleanExtras(body.extras),

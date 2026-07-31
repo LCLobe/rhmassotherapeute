@@ -27,6 +27,14 @@ function getFallbackMessage(locale, key) {
   return fallbackMessages[locale]?.[key] ?? fallbackMessages.en[key];
 }
 
+function RequiredMark() {
+  return <span className="text-red-600" aria-hidden="true">*</span>;
+}
+
+function formatPrice(price) {
+  return `${price} CHF`;
+}
+
 export default function ContactModal({
   triggerLabel,
   services,
@@ -87,6 +95,7 @@ export default function ContactModal({
     const payload = {
       name: formData.get("name"),
       email: formData.get("email"),
+      phone: formData.get("phone"),
       service: formData.get("service"),
       preferredDate: formData.get("preferredDate"),
       extras: formData.getAll("extras"),
@@ -121,7 +130,7 @@ export default function ContactModal({
 
   const triggerClass =
     variant === "primary"
-      ? "inline-flex min-h-12 items-center justify-center rounded-full bg-[#0a0a0a] px-6 text-sm uppercase tracking-[0.18em] text-[#f9ece3] shadow-[0_16px_36px_rgba(10,10,10,0.22)] transition hover:bg-[#443a28]"
+      ? "inline-flex min-h-12 items-center justify-center rounded-full bg-[#0a0a0a] px-6 text-sm uppercase tracking-[0.18em] text-[#ddb970] shadow-[0_16px_36px_rgba(10,10,10,0.22)] transition hover:bg-[#443a28]"
       : "inline-flex min-h-11 items-center justify-center rounded-full bg-[#0a0a0a] px-5 text-sm uppercase tracking-[0.16em] text-[#ddb970] transition hover:bg-[#443a28]";
 
   const modal =
@@ -163,31 +172,38 @@ export default function ContactModal({
               <button
                 type="button"
                 onClick={closeModal}
-                className="mt-6 min-h-12 mx-auto rounded-full bg-[#0a0a0a] px-6 text-sm uppercase tracking-[0.18em] text-[#f9ece3] transition hover:bg-[#443a28]"
+                className="mt-6 min-h-12 mx-auto rounded-full bg-[#0a0a0a] px-6 text-sm uppercase tracking-[0.18em] text-[#ddb970] transition hover:bg-[#443a28]"
               >
                 {getFallbackMessage(locale, "close")}
               </button>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="mt-8 grid gap-4">
+              <p className="text-sm text-[#5d513d]">
+                <RequiredMark /> {content.fields.requiredLegend}
+              </p>
               <label className="grid gap-2">
-                <span>{content.fields.name}</span>
+                <span>{content.fields.name} <RequiredMark /></span>
                 <input name="name" required className="rounded-2xl border border-[#d8c8b5] bg-white/70 px-4 py-3 outline-none focus:border-[#7f5614]" />
               </label>
               <label className="grid gap-2">
-                <span>{content.fields.email}</span>
+                <span>{content.fields.email} <RequiredMark /></span>
                 <input name="email" type="email" required className="rounded-2xl border border-[#d8c8b5] bg-white/70 px-4 py-3 outline-none focus:border-[#7f5614]" />
               </label>
               <label className="grid gap-2">
-                <span>{content.fields.service}</span>
+                <span>{content.fields.phone} <RequiredMark /></span>
+                <input name="phone" type="tel" required className="rounded-2xl border border-[#d8c8b5] bg-white/70 px-4 py-3 outline-none focus:border-[#7f5614]" />
+              </label>
+              <label className="grid gap-2">
+                <span>{content.fields.service} <RequiredMark /></span>
                 <select name="service" required className="rounded-2xl border border-[#d8c8b5] bg-white/70 px-4 py-3 outline-none focus:border-[#7f5614]">
                   <option value="">{content.fields.servicePlaceholder}</option>
+                  <option value="other">{content.fields.otherService}</option>
                   {services.map((service) => (
                     <option key={service.id} value={service.id}>
-                      {localized(service.name, locale)} - {localized(service.durationLabel, locale)}
+                      {localized(service.name, locale)} - {localized(service.durationLabel, locale)} - {formatPrice(service.price)}
                     </option>
                   ))}
-                  <option value="other">{content.fields.otherService}</option>
                 </select>
               </label>
               <label className="grid gap-2">
@@ -200,7 +216,7 @@ export default function ContactModal({
                   {extras.map((extra) => (
                     <label key={extra.id} className="flex items-center gap-3">
                       <input type="checkbox" name="extras" value={extra.id} className="h-4 w-4 accent-[#7f5614]" />
-                      <span>{localized(extra.name, locale)}</span>
+                      <span>{localized(extra.name, locale)} - {formatPrice(extra.price)}</span>
                     </label>
                   ))}
                 </div>
@@ -217,7 +233,7 @@ export default function ContactModal({
               <button
                 type="submit"
                 disabled={status === "sending"}
-                className="mt-2 min-h-12 rounded-full bg-[#0a0a0a] px-6 text-sm uppercase tracking-[0.18em] text-[#f9ece3] transition hover:bg-[#443a28] disabled:cursor-wait disabled:opacity-70"
+                className="mt-2 min-h-12 rounded-full bg-[#0a0a0a] px-6 text-sm uppercase tracking-[0.18em] text-[#ddb970] transition hover:bg-[#443a28] disabled:cursor-wait disabled:opacity-70"
               >
                 {status === "sending" ? content.sending : content.submit}
               </button>

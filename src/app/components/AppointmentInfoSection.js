@@ -1,5 +1,15 @@
 import ContactModal from "./ContactModal";
 
+function InstagramIcon() {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" className="h-4 w-4 text-[#7f5614]">
+      <rect width="17" height="17" x="3.5" y="3.5" rx="5" fill="none" stroke="currentColor" strokeWidth="1.8" />
+      <circle cx="12" cy="12" r="3.8" fill="none" stroke="currentColor" strokeWidth="1.8" />
+      <circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" />
+    </svg>
+  );
+}
+
 export default function AppointmentInfoSection({ content, extras, locale, services }) {
   return (
     <section aria-label="Appointment and quick information" className="px-5 pb-24 pt-8 sm:px-8 lg:px-12">
@@ -27,7 +37,19 @@ export default function AppointmentInfoSection({ content, extras, locale, servic
             {content.hero.highlights.map((item) => (
               <div key={item.label} className="border-l border-[#947e4c]/40 pl-4">
                 <p className="uppercase tracking-[0.18em] text-[#947e4c]">{item.label}</p>
-                <p className="mt-2 text-base">{item.value}</p>
+                {item.value === "Instagram" ? (
+                  <a
+                    href="https://www.instagram.com/rh.massotherapeute/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-2 inline-flex items-center gap-2 rounded-full border border-[#947e4c]/45 px-3 py-2 text-base transition hover:border-[#7f5614] hover:bg-white/45"
+                  >
+                    <InstagramIcon />
+                    {item.value}
+                  </a>
+                ) : (
+                  <p className="mt-2 text-base">{item.value}</p>
+                )}
               </div>
             ))}
           </div>

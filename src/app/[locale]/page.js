@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 
 import AboutSection from "../components/AboutSection";
 import AppointmentInfoSection from "../components/AppointmentInfoSection";
+import ExtrasSection from "../components/ExtrasSection";
 import HeroSection from "../components/HeroSection";
 import HomeNavigation from "../components/HomeNavigation";
 import ServicesSection from "../components/ServicesSection";
@@ -43,6 +44,7 @@ export default async function Home({ params }) {
       <HeroSection content={content} />
       <AppointmentInfoSection content={content} extras={extras} locale={locale} services={services} />
       <ServicesSection content={content} locale={locale} services={services} />
+      <ExtrasSection content={content} extras={extras} locale={locale} />
       <AboutSection content={content} />
       <VisitSection content={content} extras={extras} locale={locale} services={services} />
       <SiteFooter content={content} />
